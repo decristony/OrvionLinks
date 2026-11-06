@@ -91,8 +91,8 @@ ul{list-style:none}
   transition:transform .25s var(--ease),background .25s var(--ease);
 }
 .parceiro:hover{background:rgba(139,61,245,.16)}
-.parceiro-logo{width:calc(40 * var(--u));height:calc(40 * var(--u));flex:none;border-radius:50%;display:grid;place-items:center;overflow:hidden;background:#fff;box-shadow:0 0 0 2px #8B3DF5,0 0 16px rgba(139,61,245,.5)}
-.parceiro-logo img{width:100%;height:100%;object-fit:contain}
+.parceiro-logo{width:calc(48 * var(--u));height:calc(48 * var(--u));flex:none;border-radius:50%;display:grid;place-items:center;overflow:hidden;background:#fff;box-shadow:0 0 0 2px #8B3DF5,0 0 16px rgba(139,61,245,.5)}
+.parceiro-logo img{width:100%;height:100%;object-fit:cover}
 .parceiro-logo .mono{font-size:calc(18 * var(--u));font-weight:700;color:#5B21B6}
 .parceiro-txt{flex:1;min-width:0;text-align:left;line-height:1.25}
 .parceiro-txt strong{display:block;font-size:calc(13.5 * var(--u));font-weight:600}
